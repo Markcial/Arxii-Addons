@@ -1,0 +1,1 @@
+window.addEventListener("load", function(e) { Arxii.onLoginLoad(e); }, false);

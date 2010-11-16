@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://arxii/locale/arxii.dtd">
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+        title="&login.title;">
+  <script src="chrome://arxii/content/arxii.js"/>
+  <script src="chrome://arxii/content/login.js"/>
+  
+<vbox align="left">
+	<description flex="1">&login.description;</description>
+	<textbox id="usuari" />
+	<textbox type="password" id="password" />
+	<button label="Entrar" oncommand="Arxii.storeCredentials();"/>
+</vbox>
+
+</window>

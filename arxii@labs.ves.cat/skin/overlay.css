@@ -1,0 +1,14 @@
+/* This is just an example. You shouldn't do this. */
+menuitem#helloworld-hello {
+  color: red !important;
+}
+statusbar#status-bar image#arxii-icon {
+	padding-top:3px;
+	width:16px;
+	height:16px;
+	background:url(chrome://arxii/skin/arxii-icon.png) center center no-repeat;
+}
+
+menuitem#ArxiiMenuItem {
+	list-style-image:url(chrome://arxii/skin/arxii-icon.png);
+}

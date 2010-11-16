@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://arxii/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://arxii/locale/overlay.dtd">
+<overlay id="arxii-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="chrome://arxii/content/arxii.js"/>
+  <script src="chrome://arxii/content/overlay.js"/>
+<commandset id="mainCommandSet">
+	<command id="cmd_onLoginCommand" oncommand="Arxii.credentialsForm()" />
+</commandset>
+	<popup id="contentAreaContextMenu" oncommand="Arxii.onPopupMenu()">
+    <menuitem id="ArxiiMenuItem" label="" insertbefore="spell-suggestions" />
+  </popup>
+	<statusbar id="status-bar">
+		<statusbarpanel id="arxii-status-bar"
+			tooltiptext="Arxii opcions" context="arxii_menu" role="button">
+			<image id="arxii-icon" />
+		</statusbarpanel>
+		<menupopup id="arxii_menu">
+			<menuitem id="menu_item_03" label="Credenciales" command="cmd_onLoginCommand" />
+		</menupopup>
+	</statusbar>
+</overlay>

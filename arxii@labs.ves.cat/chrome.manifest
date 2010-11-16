@@ -1,0 +1,7 @@
+content	arxii	content/
+overlay	chrome://browser/content/browser.xul	chrome://arxii/content/overlay.xul
+
+locale	arxii	ca-AD	locale/ca-AD/
+
+skin	arxii	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://arxii/skin/overlay.css

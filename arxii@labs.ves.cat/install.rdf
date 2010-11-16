@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+  
+    <em:id>arxii@labs.ves.cat</em:id>
+    <em:name>Arxii addon (Firefox)</em:name>
+    <em:version>0.1</em:version>
+    <em:description>Complement per a Firefox de el sistema d'enmagatçemament d'adreces web Arxii</em:description>
+    <em:creator>Marc Garcia Sastre a.k.a. Markcial</em:creator>
+    <!-- optional items -->
+    <em:contributor></em:contributor>
+    <em:homepageURL>http://labs.ves.cat/arxii_addons/</em:homepageURL>
+    <!--em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
+    <em:aboutURL>chrome://arxii/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://arxii/skin/mainicon.png</em:iconURL>
+    <em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL-->
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>4.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+  </Description>
+
+</RDF>
